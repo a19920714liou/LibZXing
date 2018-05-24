@@ -119,6 +119,10 @@ public class CaptureActivity extends Activity implements
         if (captureType == 1) {
             ivMullt.setVisibility(View.INVISIBLE);
         }
+        if (captureType == 2) {
+            ivMullt.setVisibility(View.INVISIBLE);
+            tvAlbum.setVisibility(View.INVISIBLE);
+        }
 
         TranslateAnimation animation = new TranslateAnimation(
                 Animation.RELATIVE_TO_PARENT, 0.0f,
